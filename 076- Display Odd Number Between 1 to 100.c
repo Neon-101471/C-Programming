@@ -1,0 +1,13 @@
+#include <stdio.h>
+int main ()
+{
+    long n, i;
+    printf("Enter the value of n: ");
+    scanf("%d", &n);
+
+    for (i=1; i<=n; i=i+2)
+    {
+        printf("%d\t", i);
+    }
+    getch ();
+}
